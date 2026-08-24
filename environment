@@ -1,0 +1,4 @@
+# Force Mesa software rendering (llvmpipe).
+# Only for machines whose GPU has no 3D engine (e.g. AMD ES1000 server chips).
+# Read by pam_env at login; takes effect after re-login.
+LIBGL_ALWAYS_SOFTWARE=1
